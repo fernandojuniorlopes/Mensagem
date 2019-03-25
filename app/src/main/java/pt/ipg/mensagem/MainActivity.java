@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void mostraMensagem(View view) {
-        EditText editTextMensagem = (EditText) findViewById(R.id.editTextMensagem);
+        EditText editTextMensagem = findViewById(R.id.editTextMensagem);
 
         String mensagem = editTextMensagem.getText().toString();
 
